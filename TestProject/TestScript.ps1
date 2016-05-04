@@ -4,5 +4,5 @@
     [OutputType([int])]
     Param ()
  
-    42
+    43
 }

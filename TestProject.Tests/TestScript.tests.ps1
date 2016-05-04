@@ -5,7 +5,7 @@ $sut = (Split-Path -Leaf $MyInvocation.MyCommand.Path).Replace(".tests.", ".")
 Describe "TestScript" {
 	Context "Exists" {
 		It "Runs" {
-			AnswerToUltimateQuestion | Should Be 42
+			AnswerToUltimateQuestion | Should Be 43
 		}
 	}
 }
